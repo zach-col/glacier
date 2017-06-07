@@ -1,0 +1,254 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>The Project</title>
+  <!-- Bootstrap css -->
+  <link href="css/bootstrap.min.css" rel="stylesheet">
+  <!-- montserrat google font -->
+  <link rel="stylesheet" type="text/css" href="https://fonts.googleapis.com/css?family=Montserrat">
+  <!-- navbar css -->
+  <link href="css/navbar.css" rel="stylesheet">
+  <!-- index css -->
+  <link href="css/index.css" rel="stylesheet">
+  <!-- skills css -->
+  <link href="css/skills.css" rel="stylesheet">
+  <!-- projects css -->
+  <link href="css/projects.css" rel="stylesheet">
+  <!-- contact css -->
+  <link href="css/contact.css" rel="stylesheet"
+  <!-- font awesome cdn -->
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
+</head>
+<body>
+<!-- creating link to get home -->
+<div id="home">
+</div>
+<!-- main content -->
+<nav class="navbar navbar-inverse navbar-fixed-top">
+  <div class="container-fluid">
+    <!-- Brand and toggle get grouped for better mobile display -->
+    <div class="navbar-header customNav">
+      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+        <span class="sr-only">Toggle navigation</span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+      </button>
+
+      <a class="navbar-brand" href="#home">Glacier</a>
+
+    </div>
+
+    <!-- Collect the nav links, forms, and other content for toggling -->
+    <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+      <ul class="nav navbar-nav navbar-right">
+        <li><a href="#home">Home</a></li>
+        <li><a href="#skills">Skills</a></li>
+        <li><a href="#projects">Project's</a></li>
+        <li><a href="#contacts">Contacts</a></li>
+      </ul>
+    </div><!-- /.navbar-collapse -->
+  </div><!-- /.container-fluid -->
+</nav>
+
+<div class="parallax">
+  <div class="container-fluid">
+    <div id="homeContainer">
+      <!-- welcome heading -->
+      <h1 id="homeContainerHeader">Welcome</h1>
+      <!-- welcome sub heading -->
+      <h3 id="homeContainerInfo">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer nec odio. Praesent libero.</h3>
+      <!-- scroll down button -->
+      <button type="button" class="btn" id="purpleButton">
+        <a  id="headerSkillsLink" href="#skills">Scroll To see my skills</a>
+      </button>
+    </div>
+  </div>
+</div>
+<!-- id tag to create a link for skills-->
+<div id="skills">
+</div>
+<div id="skillsSection">
+  <div class="container-fluid">
+    <div class="row">
+      <!-- img of person -->
+      <div class="col-xl-4 col-lg-4 col-md-4 col-sm-12 col-xs-12">
+        <img class="img-responsive" id="personImage" src="images/personImage.jpg" alt="image of person"/>
+      </div>
+      <!-- skills -->
+      <div class="col-xl-8 col-lg-8 col-md-8 col-sm-12 col-xs-12">
+      <h1 id="skillsHeader">Skills -</h1>
+        <ul id="skills">
+          <li>Html</li>
+          <li>Css</li>
+          <li>Javascript</li>
+          <li>Jquery</li>
+          <li>Bootstrap</li>
+          <li>Angular</li>
+        </ul>
+      </div>
+    </div>
+  </div>
+</div>
+<!-- id tag to create a link for projects-->
+<div id="projects">
+</div>
+<!-- projects section -->
+<div class="projectsSection">
+  <!-- row of 2 -->
+  <div class="col-xl-6 col-lg-6 col-md-6 col-sm-12 col-xs-12 projectRemovePadding">
+    <div class="projectHolder">
+      <img  class="projectImage img-responsive" src="images/header.jpg" alt="1st project">
+      <div class="projectInfo">
+        <h1 class="projectName">Glacier</h1>
+        <h5 class="projectDate">Jan-1-2017</h5>
+        <h3 class="projectDesription">This is example text for a description</h3>
+        <!-- scroll down button -->
+        <button type="button" data-toggle="modal" data-target="#myModal" class="btn" id="readMoreButton">Read More</button>
+      </div>
+    </div>
+  </div>
+  <div class="col-xl-6 col-lg-6 col-md-6 col-sm-12 col-xs-12 projectRemovePadding">
+    <div class="projectHolder">
+      <img  class="projectImage img-responsive" src="images/pic1.jpg" alt="1st project">
+      <div class="projectInfo">
+        <h1 class="projectName">Lorem</h1>
+        <h5 class="projectDate">Jan-1-2017</h5>
+        <h3 class="projectDesription">This is example text for a description</h3>
+        <!-- scroll down button -->
+        <button type="button" data-toggle="modal" data-target="#myModal" class="btn" id="readMoreButton">Read More</button>
+      </div>
+    </div>
+  </div>
+  <!-- row of 1 -->
+  <div class="col-xl-12 col-lg-12 col-md-12 col-sm-12 col-xs-12 projectRemovePadding">
+    <div class="projectHolder">
+      <img  class="projectImage img-responsive" src="images/pic2.jpg" alt="1st project">
+      <div class="projectInfo">
+        <h1 class="projectName">Ipsum</h1>
+        <h5 class="projectDate">Jan-1-2017</h5>
+        <h3 class="projectDesription">This is example text for a description</h3>
+        <!-- scroll down button -->
+        <button type="button" data-toggle="modal" data-target="#myModal" class="btn" id="readMoreButton">Read More</button>
+      </div>
+    </div>
+  </div>
+  <!-- row of 2 -->
+  <div class="col-xl-6 col-lg-6 col-md-6 col-sm-12 col-xs-12 projectRemovePadding">
+    <div class="projectHolder">
+      <img  class="projectImage img-responsive" src="images/pic3.jpg" alt="1st project">
+      <div class="projectInfo">
+        <h1 class="projectName">Lorem</h1>
+        <h5 class="projectDate">Jan-1-2017</h5>
+        <h3 class="projectDesription">This is example text for a description</h3>
+        <!-- scroll down button -->
+        <button type="button" data-toggle="modal" data-target="#myModal" class="btn" id="readMoreButton">Read More</button>
+      </div>
+    </div>
+  </div>
+  <div class="col-xl-6 col-lg-6 col-md-6 col-sm-12 col-xs-12 projectRemovePadding">
+    <div class="projectHolder">
+      <img  class="projectImage img-responsive" src="images/pic4.jpg" alt="1st project">
+      <div class="projectInfo">
+        <h1 class="projectName">Ipsum</h1>
+        <h5 class="projectDate">Jan-1-2017</h5>
+        <h3 class="projectDesription">This is example text for a description</h3>
+        <!-- scroll down button -->
+        <button type="button" data-toggle="modal" data-target="#myModal" class="btn" id="readMoreButton">Read More</button>
+      </div>
+    </div>
+  </div>
+</div>
+
+<!-- contact section -->
+<div class="contactSection">
+  <!-- contact header -->
+  <div class="col-xs-12 ">
+    <h1 id="contactHeader">Contact Info</h1>
+  </div>
+  <div class=" col-xl-4 col-lg-4 col-md-6 col-sm-12 col-xs-12 ">
+    <!-- contacts -->
+    <div class="contact">
+      <!-- contact icon -->
+      <i class="fa fa-home fa-3x contactIcon"></i>
+      <!-- contact info -->
+      <h3 class="contactInfo">Texas</h3>
+    </div>
+  </div>
+  <div class="col-xl-4 col-lg-4 col-md-6 col-sm-12 col-xs-12 ">
+    <!-- contacts -->
+    <div class="contact">
+      <!-- contact icon -->
+      <i class="fa fa-github fa-3x contactIcon"></i>
+      <!-- contact info -->
+      <h3 class="contactInfo">github@example.com</h3>
+    </div>
+  </div>
+
+  <div class="col-xl-4 col-lg-4 col-md-6 col-sm-12 col-xs-12 ">
+    <!-- contacts -->
+    <div class="contact">
+      <!-- contact icon -->
+      <i class="fa fa-linkedin fa-3x contactIcon"></i>
+      <!-- contact info -->
+      <h3 class="contactInfo">Linkedin@example.com</h3>
+    </div>
+  </div>
+
+  <div class="col-xl-4 col-lg-4 col-md-6 col-sm-12 col-xs-12 ">
+    <!-- contacts -->
+    <div class="contact">
+      <!-- contact icon -->
+      <i class="fa fa-envelope-o fa-3x contactIcon"></i>
+      <!-- contact info -->
+      <h3 class="contactInfo">Email@example.com</h3>
+    </div>
+  </div>
+
+  <div class="col-xl-4 col-lg-4 col-md-6 col-sm-12 col-xs-12 ">
+    <!-- contacts -->
+    <div class="contact">
+      <!-- contact icon -->
+      <i class="fa fa-phone fa-3x contactIcon"></i>
+      <!-- contact info -->
+      <h3 class="contactInfo">111-111-1111</h3>
+      <!-- id tag to create a link for contacts-->
+      <div id="contacts">
+      </div>
+    </div>
+  </div>
+</div>
+
+  <!-- Modal example -->
+  <div class="modal fade" id="myModal" role="dialog">
+    <div class="modal-dialog">
+
+      <!-- Modal content-->
+      <div class="modal-content">
+        <div class="modal-header">
+          <button type="button" class="close" data-dismiss="modal">&times;</button>
+          <h4 class="modal-title">Glacier</h4>
+          <p class="projectDate">Created Jan-1-2017</p>
+        </div>
+        <div class="modal-body">
+          <img  class="projectImage img-responsive" src="images/header.jpg" alt="1st project">
+          <h3 class="modalDescription">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer nec odio. Praesent libero.</h3>
+          <!-- visit site button -->
+          <button type="button" class="btn visitSiteButton">Visit Site</button>
+        </div>
+      </div>
+
+    </div>
+  </div>
+
+<!-- jquery 3.2.1 -->
+<script src="js/jquery.js"></script>
+<!-- bootstrap js -->
+<script src="js/bootstrap.min.js"></script>
+<!-- navbar script to close navbar when link is clicked -->
+<script src="js/navbar.js"></script>
+</body>
+</html>

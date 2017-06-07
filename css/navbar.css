@@ -1,0 +1,52 @@
+/* changing navbar color */
+.navbar-inverse {
+  background-color: white;
+  border-color: white; /* backup color */
+  border-color: #ededed;
+}
+/* changing navbar toggle color */
+.navbar-inverse .navbar-toggle .icon-bar {
+    background-color: black;
+}
+/* changing iconbar color */
+navbar-inverse .navbar-toggle .icon-bar {
+  background-color: black;
+}
+/* navbar toggle background */
+.navbar-inverse .navbar-toggle:focus, .navbar-inverse .navbar-toggle:hover {
+  background-color: white; /* backup color */
+  background-color: #ededed;
+}
+/* changing navbar link color */
+.navbar-inverse .navbar-nav>li>a {
+  color: black;
+  font-size: 16px;
+}
+/* center nav links on mobile only */
+@media screen and (max-width: 767px) {
+    .navbar-inverse .navbar-nav>li>a{
+      text-align: center;
+    }
+}
+/* changing navbar links on hover etc.. */
+.navbar-inverse .navbar-nav>li>a:focus, .navbar-inverse .navbar-nav>li>a:hover {
+  color: grey;
+  background-color: transparent;
+  text-decoration-line: underline;
+  text-decoration-color: purple; /* backup color */
+  text-decoration-color: #5C00D1;
+}
+/* changing border to be sharp */
+.navbar{
+  border-radius: 0px;
+}
+/* styles for navbar text logo */
+.navbar-inverse .navbar-brand {
+  color: purple; /* backup color */
+  color: #5C00D1;
+}
+.navbar-inverse .navbar-brand:focus, .navbar-inverse .navbar-brand:hover {
+    color: purple; /* backup color */
+    color: #320072;
+    background-color: transparent;
+}

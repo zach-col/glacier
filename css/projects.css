@@ -1,0 +1,61 @@
+/* holder for different projects */
+.projectHolder {
+  position: relative;
+}
+/* project image */
+.projectImage{
+  height: 50vh;
+  width: 100%;
+}
+/* creating custom class to override bootstrap and remove padding */
+.projectRemovePadding{
+  padding-left: 0px;
+  padding-right: 0px;
+}
+/* info about project */
+.projectInfo {
+  position: absolute;
+  top: 0px;
+  margin-top: 32px;
+  width: 100%;
+  color: white;
+  background: rgba(0, 0, 0, 0.6);
+  padding-left: 12px;
+  padding-bottom:20px;
+}
+/* project date */
+.projectDate{
+  color: #c1c1c1;
+}
+/* readMore button*/
+#readMoreButton{
+  color: white;
+  background-color: purple; /* backup color*/
+  background-color: #5C00D1;
+  border-radius: 0px;
+  margin-top: 15px;
+}
+/* readMore button on hover etc... */
+#readMoreButton:hover{
+  color: white;
+  background-color: purple; /* backup color */
+  background-color: #320072;
+}
+/* visit site button*/
+.visitSiteButton{
+  margin-right: auto;
+  margin-left: auto;
+  color: white;
+  background-color: green;
+  border-radius: 0px;
+  display: block;
+  margin-top: 30px;
+}
+.modalDescription{
+  text-align: center;
+}
+/* visit site button on hover etc... */
+.visitSiteButton:hover{
+  color: white;
+  background-color: darkgreen;
+}

@@ -1,0 +1,23 @@
+/* skills section */
+#skillsSection{
+  margin-top: 40px;
+  margin-bottom: 60px;
+}
+/* skills section on mobile */
+@media screen and (max-width: 320px) {
+    #skillsSection{
+      height: 100vh;
+    }
+}
+/* skills person image */
+#personImage{
+  padding-top: 20px;
+  width: 80%;
+  height: 400px;
+  margin: 0 auto;
+}
+/* skills header and skills */
+#skillsHeader, #skills li{
+  color: black;
+  margin-left: 10%;
+}

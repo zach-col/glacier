@@ -1,0 +1,19 @@
+/* holder for each contact */
+.contact{
+  padding-bottom: 100px;
+}
+#contactHeader{
+  color: black;
+}
+/* contact icon */
+.contactIcon{
+  float: left;
+  margin-top: 10px;
+  margin-left: 10%;
+  color: black;
+}
+/* contact info */
+.contactInfo{
+  float: left;
+  margin-left: 11px;
+}
