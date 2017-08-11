@@ -11,6 +11,7 @@
 .projectRemovePadding{
   padding-left: 0px;
   padding-right: 0px;
+  border: 1px solid black;
 }
 /* info about project */
 .projectInfo {
