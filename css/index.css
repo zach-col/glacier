@@ -12,37 +12,33 @@ body, html {
   background-repeat: no-repeat;
   background-size: cover;
 }
-#headerSkillsLink{
-  text-decoration: none;
-  color: white;
-}
 /* adding margin for parallax */
 .navbar {
   border-radius: 0px;
   margin-bottom: -20px;
 }
 /* container for home area */
-#homeContainer{
+#homeContainer {
   margin-top: 17vh
 }
 /* home container tags */
-#homeContainerHeader, #homeContainerInfo{
+#homeContainerHeader, #homeContainerInfo {
   text-align: center;
   color: black;
 }
 /* welcome scroll button*/
-#purpleButton{
-  margin-right: auto;
-  margin-left: auto;
+#purpleButton {
   color: white;
   background-color: purple; /* backup color*/
   background-color: #5C00D1;
   border-radius: 0px;
-  display: block;
   margin-top: 30px;
 }
+.btnContainer {
+  text-align: center;
+}
 /* welcome scroll button on hover etc... */
-#purpleButton:hover{
+#purpleButton:hover {
   color: white;
   background-color: purple; /* backup color */
   background-color: #320072;
